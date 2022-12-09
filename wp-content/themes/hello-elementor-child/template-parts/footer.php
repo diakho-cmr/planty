@@ -14,5 +14,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="footer-inner">
 		<img src="<?php echo get_stylesheet_directory_uri () . '/assets/images/cans.svg' ?>" alt="cannettes">
 	</div>
-	<p>Mentions légales</p>
+	<a href="#"><p>Mentions légales</p></a>
 </footer>
