@@ -5,3 +5,58 @@ Author: Diakho Camara
 Template: hello-elementor
 Version: 1.0
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
+
+/*****HEADER*****/
+
+.site-header {
+	margin: 0;
+	padding: 0;
+}
+
+.site-header .header-inner {
+	max-width: 1440px;
+	padding-left: 37px;
+}
+
+.menu-principal-container {
+	display:flex;
+	flex-flow: row wrap;
+	height: 80px;
+	font-family: 'Syne', sans-serif;
+}
+
+.site-navigation ul.menu li {
+	display: flex;
+   	align-items: center;
+}
+
+.site-navigation ul.menu li a {
+	padding: 0;
+	color: #000000;
+	padding: 0 61px 0 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.site-navigation ul.menu li a:hover {
+	font-weight: 700;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.site-navigation ul.menu li:last-child {
+	background-color: #DC9F96;
+}
+
+.site-navigation ul.menu li:last-child:hover {
+	background-color: #C02E44;
+}
+
+.site-navigation ul.menu li:last-child a {
+	color: #FFFFFF;
+	padding: 0 61px;
+	font-size: 16px;
+	font-weight: 700;
+}
