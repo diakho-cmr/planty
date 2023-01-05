@@ -16,7 +16,7 @@ Version: 1.0
 }
 
 .site-header .header-inner {
-	max-width: 1440px;
+	max-width: 100%;
 	padding-left: 37px;
 }
 
@@ -62,15 +62,10 @@ Version: 1.0
 
 /*****FOOTER*****/
 
-.site-footer{
-	margin: 0;
-	padding: 0;
-}
-
 .site-footer .footer-inner {
 	margin: 0;
 	padding: 30px 0 0;
-	max-width: 1440px;
+	max-width: 100%;
 }
 
 .site-footer a {
@@ -82,3 +77,12 @@ Version: 1.0
 	color: #000000;
 }
 
+.footer-inner img {
+	width: 100%;
+}
+
+/*****CONTACT FORM*****/
+
+.contact-form-input input {
+	color: red;
+}
